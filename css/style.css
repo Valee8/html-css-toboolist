@@ -34,7 +34,7 @@ header {
 
 /* Contenitore */
 #container {
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
     background: #fff;
     border-radius: 6px;
@@ -63,3 +63,49 @@ header {
     padding: 5px;
     line-height: 60px;
 }
+
+.section-main {
+    padding: 30px 50px 50px 50px;
+}
+
+.section-main h2 {
+    font-size: 20px;
+}
+
+
+.section-main h2:before {
+    content: '\25BE';
+}
+
+
+.new-task .list {
+    margin-top: 0;
+}
+
+.list {
+    font-size: 16px;
+}
+
+
+.list:before {
+    font-size: 11px;
+    padding: 1px 3px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.list.green:before {
+    content: '\2714'; 
+    color: #73C8B4;
+    border: solid 1px #73C8B4;
+}
+
+.list.red:before {
+    content: '\2716'; 
+    color: #F29A97;
+    border: solid 1px #F29A97;
+}
+
+
+
