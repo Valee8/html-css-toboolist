@@ -11,23 +11,28 @@ body {
     background-color: #F6F8F9;
 }
 
+/* Header */
 header {
     background-color: #fff;
     height: 70px;
     margin-bottom: 40px;
 }
 
+/* Titolo */
 #title {
     display: inline-block;
     line-height: 70px; 
-    vertical-align: middle
+    vertical-align: middle;
+    color: #000;
 }
 
+/* Logo */
 #logo {
     vertical-align: middle;
      margin-left: 20px;
 }
 
+/* Contenitore */
 #container {
     width: 700px;
     margin: 0 auto;
@@ -35,20 +40,23 @@ header {
     border-radius: 6px;
 }
 
+/* Sezione bottoni */
 .section-buttons {
     height: 50px;
-    border-bottom: solid 1px #FAFBFC;
+    border-bottom: solid 1px #EAECEE;
 }
 
 .button.task {
     background-color: #47ADF1;
     color: #fff;
     border: solid 1px #47ADF1;
+    margin-left: 50px;
+    margin-right: 5px;
 }
 
 .button {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
     color: #D4D8DC;
     border: solid 1px #D4D8DC;
     border-radius: 5px;
